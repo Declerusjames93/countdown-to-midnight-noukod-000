@@ -11,7 +11,7 @@
   num -= 1
 
  end
-  puts "HAPPY NEW YEAR!"
+  return "HAPPY NEW YEAR!"
 end
 
 
@@ -24,5 +24,5 @@ end
   num -= 1
 
  end
-   puts "HAPPY NEW YEAR!"
-end	end
+   return "HAPPY NEW YEAR!"
+end	
