@@ -1,11 +1,28 @@
 #write your code here
 
-def countdown(entier)
-  counter = entier
-  while counter > 0
-puts "#{number} SECOND(S)!"
-    counter -= 1
-    return "HAPPY NEW YEAR!"
-  end
+#write your code here
 
+
+ def countdown(num)
+
+ while num > 0
+
+   puts "#{num} SECOND(S)!"
+  num -= 1
+
+ end
+  puts "HAPPY NEW YEAR!"
 end
+
+
+ def countdown_with_sleep(num)
+
+ while num > 0
+
+   puts "#{num} SECOND(S)!"
+  sleep(1)
+  num -= 1
+
+ end
+   puts "HAPPY NEW YEAR!"
+end	end
